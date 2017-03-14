@@ -1,0 +1,189 @@
+/*----------------------- POWER MANAGEMENT CSS -----------------------*/
+/*--------------------------------------------------------------------*/
+
+/*------ Globals ------*/
+
+body {
+    font-family: 'Calibri', 'Sans-serif', 'Arial';
+    background: #ffffff;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+a {
+    color: #077ab4;
+}
+
+a, 
+a:hover, 
+a:focus, 
+a:visited, 
+a:link, 
+a:active {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*------ Helpers ------*/
+
+.pointer {
+    cursor: pointer;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.padding-none {
+    padding: 0 !important;
+}
+
+.border-none {
+    border: 0 !important;
+    box-shadow: 0 !important;
+}
+
+.margin-none {
+    margin: 0 !important;
+}
+
+.pmt-bg-blue {
+    background: #077ab4;
+    background-color: #077ab4;
+    color: #ffffff;
+}
+
+.pmt-bg-light-blue {
+    background: #d9f0fb;
+    background-color: #d9f0fb;
+    color: #077ab4;
+}
+
+.pmt-bg-orange {
+    background: #f19020;
+    background-color: #f19020;
+    color: #ffffff;
+}
+
+.pmt-bg-light {
+    background: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #404040;
+}
+
+.pmt-bg-green,
+.pmt-valid {
+    background: #8bc53f;
+    background-color: #8bc53f;
+    color: #ffffff;
+}
+
+.pmt-bg-yellow,
+.pmt-caution {
+    background: #faaf40;
+    background-color: #faaf40;
+    color: #ffffff;
+}
+
+.pmt-bg-red,
+.pmt-invalid {
+    background: #df574c;
+    background-color: #df574c;
+    color: #ffffff;
+}
+
+.pmt-bg-dark,
+.pmt-over-engineered {
+    background: #404040;
+    background-color: #404040;
+    color: #ffffff;
+}
+
+.pmt-status-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 300;
+    padding: 3px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pmt-sidebar-icon {
+    color: #077ab4;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pmt-action-icon,
+.pmt-action-icon a {
+    color: #077ab4;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pmt-text-white {
+    color: #ffffff;
+}
+
+.pmt-text-dark {
+    color: #404040;
+}
+
+.pmt-text-blue {
+    color: #077ab4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*------ Style Guide header ------*/
+.pmt-style-header {
+    width: 100%; 
+    min-height: 40px; 
+    background: #077ab4;
+    background-color: #077ab4;
+    color: #ffffff; 
+    padding: 10px 15px; 
+    font-size: 1.1em; 
+    margin-bottom: 30px;
+}
+
+/*------ Mobile ------*/
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
