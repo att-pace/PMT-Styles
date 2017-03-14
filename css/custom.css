@@ -1,5 +1,5 @@
-/*----------------------- POWER MANAGEMENT CSS -----------------------*/
-/*--------------------------------------------------------------------*/
+/*----------------------- POWER MANAGEMENT TOOL | COLOR & ICON STYLES -----------------------*/
+/*-------------------------------------------------------------------------------------------*/
 
 /*------ Globals ------*/
 
@@ -46,6 +46,32 @@ a:active {
 .margin-none {
     margin: 0 !important;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*------ PMT background colors ------*/
 
 .pmt-bg-blue {
     background: #077ab4;
@@ -99,6 +125,22 @@ a:active {
     color: #ffffff;
 }
 
+/*------ PMT text colors ------*/
+
+.pmt-text-white {
+    color: #ffffff;
+}
+
+.pmt-text-dark {
+    color: #404040;
+}
+
+.pmt-text-blue {
+    color: #077ab4;
+}
+
+/*------ PMT icon types ------*/
+
 .pmt-status-icon {
     width: 20px;
     height: 20px;
@@ -130,43 +172,8 @@ a:active {
     text-align: center;
 }
 
-.pmt-text-white {
-    color: #ffffff;
-}
-
-.pmt-text-dark {
-    color: #404040;
-}
-
-.pmt-text-blue {
-    color: #077ab4;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-left {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
 /*------ Style Guide header ------*/
+
 .pmt-style-header {
     width: 100%; 
     min-height: 40px; 
