@@ -3,15 +3,20 @@
 
 /*------ Globals ------*/
 
+@font-face {
+    font-family: Omnes;
+    src: url(/fonts/OmnesATT-Regular.otf) format("opentype");
+}
+
 body {
-    font-family: 'Calibri', 'Sans-serif', 'Arial';
+    font-family: 'Omnes', 'Sans-serif', 'Arial';
     background: #ffffff;
     background-color: #ffffff;
     font-size: 16px;
 }
 
 a {
-    color: #077ab4;
+    color: #0574ac;
 }
 
 a, 
@@ -73,56 +78,66 @@ a:active {
 
 /*------ PMT background colors ------*/
 
-.pmt-bg-blue {
-    background: #077ab4;
-    background-color: #077ab4;
-    color: #ffffff;
-}
-
-.pmt-bg-light-blue {
-    background: #d9f0fb;
-    background-color: #d9f0fb;
+.pmt-bg-core-blue {
+    background: #009fdb;
+    background-color: #009fdb;
     color: #077ab4;
 }
 
+.pmt-bg-blue {
+    background: #0574ac;
+    background-color: #0574ac;
+    color: #ffffff;
+}
+
 .pmt-bg-orange {
-    background: #f19020;
-    background-color: #f19020;
+    background: #ea7400;
+    background-color: #ea7400;
     color: #ffffff;
 }
 
 .pmt-bg-light {
-    background: #f1f1f1;
-    background-color: #f1f1f1;
-    color: #404040;
+    background: #f2f2f2;
+    background-color: #f2f2f2;
+    color: #333333;
 }
 
 .pmt-bg-green,
 .pmt-valid {
-    background: #8bc53f;
-    background-color: #8bc53f;
+    background: #4ca947;
+    background-color: #4ca947;
     color: #ffffff;
 }
 
 .pmt-bg-yellow,
 .pmt-caution {
-    background: #faaf40;
-    background-color: #faaf40;
+    background: #fcb71c;
+    background-color: #fcb71c;
     color: #ffffff;
 }
 
 .pmt-bg-red,
 .pmt-invalid {
-    background: #df574c;
-    background-color: #df574c;
+    background: #cf292a;
+    background-color: #cf292a;
     color: #ffffff;
 }
 
-.pmt-bg-dark,
+.pmt-bg-dark-gray,
 .pmt-over-engineered {
-    background: #404040;
-    background-color: #404040;
+    background: #666666;
+    background-color: #666666;
     color: #ffffff;
+}
+
+.pmt-bg-gray {
+    background: #959595;
+    background-color: #959595;
+}
+
+.pmt-bg-light-gray {
+    background: #dddddd;
+    background-color: #dddddd;
 }
 
 /*------ PMT text colors ------*/
@@ -132,11 +147,23 @@ a:active {
 }
 
 .pmt-text-dark {
-    color: #404040;
+    color: #333333;
 }
 
 .pmt-text-blue {
-    color: #077ab4;
+    color: #0574ac;
+}
+
+.pmt-text-green {
+    color: #4ca947;
+}
+
+.pmt-text-red {
+    color: #cf292a;
+}
+
+.pmt-text-gray {
+    color: #959595;
 }
 
 /*------ PMT icon types ------*/
@@ -147,14 +174,13 @@ a:active {
     border-radius: 50%;
     font-size: 11px;
     font-weight: 300;
-    padding: 3px;
+    padding: 5px;
     margin: 5px;
     display: inline-block;
     text-align: center;
 }
 
 .pmt-sidebar-icon {
-    color: #077ab4;
     font-size: 18px;
     font-weight: 300;
     margin: 5px;
@@ -164,7 +190,6 @@ a:active {
 
 .pmt-action-icon,
 .pmt-action-icon a {
-    color: #077ab4;
     font-size: 18px;
     font-weight: 300;
     margin: 5px;
@@ -177,8 +202,8 @@ a:active {
 .pmt-style-header {
     width: 100%; 
     min-height: 40px; 
-    background: #077ab4;
-    background-color: #077ab4;
+    background: #0574ac;
+    background-color: #0574ac;
     color: #ffffff; 
     padding: 10px 15px; 
     font-size: 1.1em; 
