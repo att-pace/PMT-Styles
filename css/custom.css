@@ -210,6 +210,14 @@ a:active {
     margin-bottom: 30px;
 }
 
+.pmt-style-header a {
+    color: #ffffff;   
+}
+
+.pmt-style-header a:hover {
+    opacity: .8;   
+}
+
 /*------ Mobile ------*/
 
 @media screen and (max-width: 900px) {
