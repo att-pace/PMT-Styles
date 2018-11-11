@@ -1,5 +1,6 @@
 # PMT Styles
 
-Color and icon styles for the Power Management Tool
+Simple single-page site displaying the color and icon styles for the Power Management Tool.
+To view the site, visit:
 
 https://sneelz.github.io/PMT-Styles/
